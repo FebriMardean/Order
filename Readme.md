@@ -1,4 +1,8 @@
-﻿# Studi Kasus Promo
+﻿Nama : Ananda Febriansyah Mardean
+
+NIM : 19.11.2856
+
+# Studi Kasus Promo
 Aplikasi ini bertujuan seperti simulasi pembelian makanan dan minuman dengan menggunakan promo/voucher.
 
 # Scope and Functionalities
