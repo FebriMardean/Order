@@ -13,22 +13,22 @@
         <Label Content="Perum. Soka Asri Permai Blok W-5" HorizontalAlignment="Left" Margin="47,130,0,0" VerticalAlignment="Top" FontSize="9"/>
         <Button Content="Ganti Alamat" HorizontalAlignment="Left" Margin="47,181,0,0" VerticalAlignment="Top"/>
         <Label Content="Diantar ke" HorizontalAlignment="Left" Margin="47,69,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Rectangle HorizontalAlignment="Left" Height="222" Margin="519,59,0,0" Stroke="Black" VerticalAlignment="Top" Width="178"/>
+        <Rectangle HorizontalAlignment="Left" Height="270" Margin="519,59,0,0" Stroke="Black" VerticalAlignment="Top" Width="178"/>
         <Label Content="Food Order" HorizontalAlignment="Left" Margin="38,20,0,0" VerticalAlignment="Top"/>
         <Label Content="Metode Pembayaran" HorizontalAlignment="Left" Margin="519,61,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label Content="Subtotal" HorizontalAlignment="Left" Margin="229,291,0,0" VerticalAlignment="Top"/>
         <Label Content="Delivery Fee" HorizontalAlignment="Left" Margin="229,317,0,0" VerticalAlignment="Top"/>
-        <Rectangle HorizontalAlignment="Left" Margin="521,292,0,41" Stroke="Black" Width="178"/>
+        <Rectangle HorizontalAlignment="Left" Margin="521,343,0,41" Stroke="Black" Width="178"/>
         <Label Content="Promo" HorizontalAlignment="Left" Margin="229,343,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.393,0.541"/>
         <Rectangle VerticalAlignment="Top" Fill="LightGray" Height="0.5" Margin="236,286,302,0"/>
         <Label Content="79.000" Name="labelSubtotal" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="436,292,0,0" VerticalAlignment="Top" Width="62"/>
         <Label x:Name="labelDeliveryFee" Content="8.000" HorizontalContentAlignment="Right"  HorizontalAlignment="Left" Margin="436,317,0,0" VerticalAlignment="Top" Width="62"/>
         <Label x:Name="labelPromoFee" Content="-4.000" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="436,343,0,0" VerticalAlignment="Top" Width="62"/>
-        <Label Content="Total" HorizontalAlignment="Left" Margin="525,299,0,0" VerticalAlignment="Top"/>
+        <Label Content="Total" HorizontalAlignment="Left" Margin="526,343,0,0" VerticalAlignment="Top"/>
         <Label Content="Uang" HorizontalAlignment="Left" Margin="525,89,0,0" VerticalAlignment="Top" FontSize="9"/>
         <Label x:Name="labelBalance" Content="Rp 300.000" HorizontalAlignment="Left" Margin="533,110,0,0" VerticalAlignment="Top"/>
         <Label Content="Promo" HorizontalAlignment="Left" Margin="525,148,0,0" VerticalAlignment="Top" FontSize="9"/>
-        <Label x:Name="labelGrantTotal" Content="Rp 0" HorizontalAlignment="Left" Margin="533,360,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
+        <Label x:Name="labelGrantTotal" Content="Rp 0" HorizontalAlignment="Left" Margin="533,390,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
         <Label Content="Item Pesanan" HorizontalAlignment="Left" Margin="231,64,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <ListBox x:Name="listBoxPesanan" Margin="231,95,358,248" MouseLeftButtonUp="listBoxPesanan_ItemClicked">
             <ListBox.ItemTemplate>
@@ -45,9 +45,9 @@
             </ListBox.ItemTemplate>
         </ListBox>
         <Button x:Name="buttonAddItem" Content=" + " HorizontalAlignment="Left" Width="45" Height="20" VerticalAlignment="Top" Margin="453,64,0,0" Click="onButtonAddItemClicked"/>
-        <Label x:Name="labelPromo" Content="Grabwae" HorizontalAlignment="Left" Margin="533,175,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelPromo" Content="Awal Tahun" HorizontalAlignment="Left" Margin="533,175,0,0" VerticalAlignment="Top"/>
         <Button x:Name="buttonAddPromo" Content="Ganti" HorizontalAlignment="Left" Margin="650,175,0,0" VerticalAlignment="Top" Click="onButtonAddPromoClicked"/>
-        <ListBox x:Name="listBoxPakaiPromo" HorizontalAlignment="Left" Height="139" Margin="714,110,0,0" VerticalAlignment="Top" Width="132" MouseLeftButtonUp="listBoxPakaiPromo_ItemClicked" >
+        <ListBox x:Name="listBoxPakaiPromo" HorizontalAlignment="Left" Height="111" Margin="526,206,0,0" VerticalAlignment="Top" Width="156" MouseLeftButtonUp="listBoxPakaiPromo_ItemClicked" >
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid Margin="0,2">
